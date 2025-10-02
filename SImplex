@@ -1,2 +1,7 @@
 from scipy.optimize import linprog
 import sympy as sp
+
+def parse_restriction(expr_str, variables): 
+    expr_str = expr_str.replace('<', '<=')
+
+    if 
